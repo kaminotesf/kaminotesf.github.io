@@ -1,26 +1,25 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: PhD student Physics, CSE <a href='https://physics.gatech.edu/user/zhixin-song'> @Georgia Tech</a> | Previously <a href='https://www.jpmorgan.com/technology/applied-research'> @JPMC</a>, <a href='https://qml.baidu.com/'> @Baidu</a>  
 
 profile:
-  align: right
-  image: prof_pic.jpg
+  align: left
+  image: JackSong-2017.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+#    <p>555 your office number</p>
+#    <p>123 your address street</p>
+#    <p>Your City, State 12345</p>
 
-news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false  # includes a list of news items
+latest_posts: false  # includes a list of the newest posts
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am a 3rd-year PhD student in School of Physics at Georgia Institute of Technology, advised by CSE faculty [Prof. Spencer Bryngelson](https://comp-physics.group/). My current research focus on quantum algorithms for solving Partial Differential Equations (PDEs) with an application to Computational Fluid Dynamics (CFD). I received my B.S. in Physics from Ohio State University with minor in Mathematics and Philosophy.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Prior to my PhD study, I worked as a research and developement intern at Institue of Quantum Computing (IQC) Baidu for one year, suprevised by [Dr. Xin Wang](https://www.xinwang.info/) (now Professor at HKUST). I also worked as a research intern at JP Morgan Chase GTAR Quantum team.
