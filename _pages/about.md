@@ -2,16 +2,13 @@
 layout: about
 title: About
 permalink: /
-subtitle: PhD student Physics, CSE <a href='https://physics.gatech.edu/user/zhixin-song'> @Georgia Tech</a> | Previously <a href='https://www.jpmorgan.com/technology/applied-research'> @JPMC</a>, <a href='https://qml.baidu.com/'> @Baidu</a>  
+subtitle: 
 
 profile:
   align: left
   image: JackSong-2017.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-#    <p>555 your office number</p>
-#    <p>123 your address street</p>
-#    <p>Your City, State 12345</p>
+  more_info: 
 
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
