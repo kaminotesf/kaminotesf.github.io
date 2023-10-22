@@ -20,6 +20,6 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 
-I am a 3rd-year PhD student in School of Physics at Georgia Institute of Technology, advised by CSE faculty [Prof. Spencer Bryngelson](https://comp-physics.group/). My current research focus on quantum algorithms for solving Partial Differential Equations (PDEs) with an application to Computational Fluid Dynamics (CFD). I received my B.S. in Physics from Ohio State University with minor in Mathematics and Philosophy.
+I am a 3rd-year PhD student in the School of Physics at Georgia Institute of Technology, advised by CSE faculty [Prof. Spencer Bryngelson](https://comp-physics.group/). My current research focuses on quantum algorithms for solving Partial Differential Equations (PDEs) with an application to Computational Fluid Dynamics (CFD). I received my B.S. in Physics from Ohio State University with a minor in Mathematics and Philosophy.
 
-Prior to my PhD study, I worked as a research and developement intern at Institue of Quantum Computing (IQC) Baidu for one year, suprevised by [Dr. Xin Wang](https://www.xinwang.info/) (now Professor at HKUST). I also worked as a research intern at JP Morgan Chase GTAR Quantum team.
+Prior to my Ph.D. study, I worked as a research and development intern at the Institue of Quantum Computing (IQC) Baidu for one year, supervised by [Dr. Xin Wang](https://www.xinwang.info/) (now Professor at HKUST). I also interned at JP Morgan Chase GTAR Quantum team during Summer 2023.
