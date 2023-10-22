@@ -5,9 +5,9 @@ nav: true
 nav_order: 7
 dropdown: true
 children:
-    - title: Talks
-      permalink: /publications/
+    - title: Teaching
+      permalink: /teaching/
     - title: divider
-    - title: Blog
+    - title: Personal
       permalink: /blog/
 ---
