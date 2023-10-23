@@ -3,8 +3,8 @@ layout: page
 permalink: /personal/
 title: Personal 
 description: Brief records of my life and what I am interested in general.
-nav: false
-nav_order: 
+nav: true
+nav_order: 2
 ---
 
 ### Hiking
@@ -31,17 +31,17 @@ Meet my cats Dolly & Adam :smile_cat:​. I like to play with them when I am don
 I'm a fan of Japanese culture and anime. I used to watch a lot of anime each season. Now since I am in grad school, I have less free time to explore each of them. Feel free to check what I am watching [this season](https://myanimelist.net/animelist/Zhixin_Song?status=1) and follow me on [@MyAnimeList](https://myanimelist.net/profile/Zhixin_Song).
 
 <p float="center">
-  <img src="/assets/img/frieren.jpeg" width="200" />
-  <img src="/assets/img/shangri.jpeg" width="200" /> 
-  <img src="/assets/img/undead.jpeg" width="200" /> 
+  <img src="/assets/img/frieren.png" width="200" />
+  <img src="/assets/img/shangri.png" width="200" /> 
+  <img src="/assets/img/undead.png" width="200" /> 
 </p>
 
 <hr>
 
 ### Music
-I'm a big fan of classical music and my favorite  composer is and favorite  piece is.
+I'm a big fan of classical music and my favorite  composer is [@Ludwig van Beethoven](https://en.wikipedia.org/wiki/Ludwig_van_Beethoven) and favorite  piece is [@Requiem in D K. 626](https://www.youtube.com/watch?v=Dp2SJN4UiE4).
 
-<img src="/assets/img/PhilOrch.jpg" width="700px" class="center"/> 
+<img src="/assets/img/philorch.png" width="700px" class="center"/> 
 
 <hr>
 

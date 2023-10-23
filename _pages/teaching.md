@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description: Course preparation I contributed to.
+description: Gallery of teaching materials and mentorship.
 nav: false
 nav_order: 5
 ---
@@ -16,3 +16,8 @@ nav_order: 5
 ### Ohio State University
 
 - MATH 2415 Differential Equations, Teaching Assistant (TA), Spring 2017 
+
+<hr>
+
+### Mentorship
+TBA
