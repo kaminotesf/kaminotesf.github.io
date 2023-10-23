@@ -4,21 +4,21 @@
 @string{aps = {American Physical Society,}}
 
 
-@article{wang2021variational,
-  abbr={Quantum},
+
+@article{zhao2021practical,
   bibtex_show={true},
-  title={Variational quantum singular value decomposition},
-  abstract={Singular value decomposition is central to many problems in engineering and scientific fields. Several quantum algorithms have been proposed to determine the singular values and their associated singular vectors of a given matrix. Although these algorithms are promising, the required quantum subroutines and resources are too costly on near-term quantum devices. In this work, we propose a variational quantum algorithm for singular value decomposition (VQSVD). By exploiting the variational principles for singular values and the Ky Fan Theorem, we design a novel loss function such that two quantum neural networks (or parameterized quantum circuits) could be trained to learn the singular vectors and output the corresponding singular values. Furthermore, we conduct numerical simulations of VQSVD for random matrices as well as its applications in image compression of handwritten digits. Finally, we discuss the applications of our algorithm in recommendation systems and polar decomposition. Our work explores new avenues for quantum information processing beyond the conventional protocols that only works for Hermitian data, and reveals the capability of matrix decomposition on near-term quantum devices.},
-  author={Wang, Xin and Song, Zhixin and Wang, Youle},
-  journal={Quantum},
-  volume={5},
-  pages={483},
+  title={Practical distributed quantum information processing with LOCCNet},
+  abstract={Distributed quantum information processing is essential for building quantum networks and enabling more extensive quantum computations. In this regime, several spatially separated parties share a multipartite quantum system, and the most natural set of operations is Local Operations and Classical Communication (LOCC). As a pivotal part in quantum information theory and practice, LOCC has led to many vital protocols such as quantum teleportation. However, designing practical LOCC protocols is challenging due to LOCC’s intractable structure and limitations set by near-term quantum devices. Here we introduce LOCCNet, a machine learning framework facilitating protocol design and optimization for distributed quantum information processing tasks. As applications, we explore various quantum information tasks such as entanglement distillation, quantum state discrimination, and quantum channel simulation. We discover protocols with evident improvements, in particular, for entanglement distillation with quantum states of interest in quantum information. Our approach opens up new opportunities for exploring entanglement and its applications with machine learning, which will potentially sharpen our understanding of the power and limitations of LOCC. An implementation of LOCCNet is available in Paddle Quantum, a quantum machine learning Python package based on PaddlePaddle deep learning platform.},
+  author={Zhao, Xuanqiang and Zhao, Benchi and Wang, Zihe and Song, Zhixin and Wang, Xin},
+  journal={npj Quantum Information},
+  html={https://www.nature.com/articles/s41534-021-00496-x},
+  pdf={LOCC.pdf},
+  preview={LOCC.png},
+  volume={7},
+  number={1},
+  pages={159},
   year={2021},
-  publisher={Verein zur F{\"o}rderung des Open Access Publizierens in den Quantenwissenschaften},
-  html={https://quantum-journal.org/papers/q-2021-06-29-483/},
-  pdf={VQSVD.pdf},
-  selected={true},
-  preview={VQSVD.png}
+  publisher={Nature Publishing Group UK London}
 }
 
 @article{chen2021variational,
@@ -27,17 +27,16 @@
   abstract={Estimating the difference between quantum data is crucial in quantum computing. However, as typical characterizations of quantum data similarity, the trace distance and quantum fidelity are believed to be exponentially-hard to evaluate in general. In this work, we introduce hybrid quantum–classical algorithms for these two distance measures on near-term quantum devices where no assumption of input state is required. First, we introduce the variational trace distance estimation (VTDE) algorithm. We in particular provide the technique to extract the desired spectrum information of any Hermitian matrix by local measurement. A novel variational algorithm for trace distance estimation is then derived from this technique, with the assistance of a single ancillary qubit. Notably, VTDE could avoid the barren plateau issue with logarithmic depth circuits due to a local cost function. Second, we introduce the variational fidelity estimation algorithm. We combine Uhlmann's theorem and the freedom in purification to translate the estimation task into an optimization problem over a unitary on an ancillary system with fixed purified inputs. We then provide a purification subroutine to complete the translation. Both algorithms are verified by numerical simulations and experimental implementations, exhibiting high accuracy for randomly generated mixed states.},
   author={Chen, Ranyiliu and Song*, Zhixin and Zhao, Xuanqiang and Wang, Xin},
   journal={Quantum Science and Technology},
+  html={https://iopscience.iop.org/article/10.1088/2058-9565/ac38ba},
+  pdf={VFE.pdf},
+  selected={true},
+  preview={VFE.jpeg},
   volume={7},
   number={1},
   pages={015019},
   year={2021},
-  publisher={IOP Publishing},
-  html={https://iopscience.iop.org/article/10.1088/2058-9565/ac38ba},
-  pdf={VFE.pdf},
-  selected={true},
-  preview={VFE.jpeg}
+  publisher={IOP Publishing}
 }
-
 
 @inproceedings{li2021vsql,
   bibtex_show={true},
@@ -45,33 +44,35 @@
   abstract={Classification of quantum data is essential for quantum machine learning and near-term quantum technologies. In this paper, we propose a new hybrid quantum-classical framework for supervised quantum learning, which we call Variational Shadow Quantum Learning (VSQL). Our method in particular utilizes the classical shadows of quantum data, which fundamentally represent the side information of quantum data with respect to certain physical observables. Specifically, we first use variational shadow quantum circuits to extract classical features in a convolution way and then utilize a fully-connected neural network to complete the classification task. We show that this method could sharply reduce the number of parameters and thus better facilitate quantum circuit training. Simultaneously, less noise will be introduced since fewer quantum gates are employed in such shadow circuits. Moreover, we show that the Barren Plateau issue, a significant gradient vanishing problem in quantum machine learning, could be avoided in VSQL. Finally, we demonstrate the efficiency of VSQL in quantum classification via numerical experiments on the classification of quantum states and the recognition of multi-labeled handwritten digits. In particular, our VSQL approach outperforms existing variational quantum classifiers in the test accuracy in the binary case of handwritten digit recognition and notably requires much fewer parameters.},
   author={Li, Guangxi and Song, Zhixin and Wang, Xin},
   booktitle={Proceedings of the AAAI conference on artificial intelligence},
+  html={https://ojs.aaai.org/index.php/AAAI/article/view/17016},
+  pdf={VSQL.pdf},
+  selected={true},
+  preview={VSQL.png},
   volume={35},
   number={9},
   pages={8357--8365},
-  year={2021},
-  html={https://ojs.aaai.org/index.php/AAAI/article/view/17016},
-  pdf={VSQL.pdf},
-  dimensions={true},
-  selected={true},
-  preview={VSQL.png}
+  year={2021}
 }
 
 
-@article{zhao2021practical,
+@article{wang2021variational,
+  abbr={Quantum},
   bibtex_show={true},
-  title={Practical distributed quantum information processing with LOCCNet},
-  abstract={Distributed quantum information processing is essential for building quantum networks and enabling more extensive quantum computations. In this regime, several spatially separated parties share a multipartite quantum system, and the most natural set of operations is Local Operations and Classical Communication (LOCC). As a pivotal part in quantum information theory and practice, LOCC has led to many vital protocols such as quantum teleportation. However, designing practical LOCC protocols is challenging due to LOCC’s intractable structure and limitations set by near-term quantum devices. Here we introduce LOCCNet, a machine learning framework facilitating protocol design and optimization for distributed quantum information processing tasks. As applications, we explore various quantum information tasks such as entanglement distillation, quantum state discrimination, and quantum channel simulation. We discover protocols with evident improvements, in particular, for entanglement distillation with quantum states of interest in quantum information. Our approach opens up new opportunities for exploring entanglement and its applications with machine learning, which will potentially sharpen our understanding of the power and limitations of LOCC. An implementation of LOCCNet is available in Paddle Quantum, a quantum machine learning Python package based on PaddlePaddle deep learning platform.},
-  author={Zhao, Xuanqiang and Zhao, Benchi and Wang, Zihe and Song, Zhixin and Wang, Xin},
-  journal={npj Quantum Information},
-  volume={7},
-  number={1},
-  pages={159},
+  title={Variational quantum singular value decomposition},
+  abstract={Singular value decomposition is central to many problems in engineering and scientific fields. Several quantum algorithms have been proposed to determine the singular values and their associated singular vectors of a given matrix. Although these algorithms are promising, the required quantum subroutines and resources are too costly on near-term quantum devices. In this work, we propose a variational quantum algorithm for singular value decomposition (VQSVD). By exploiting the variational principles for singular values and the Ky Fan Theorem, we design a novel loss function such that two quantum neural networks (or parameterized quantum circuits) could be trained to learn the singular vectors and output the corresponding singular values. Furthermore, we conduct numerical simulations of VQSVD for random matrices as well as its applications in image compression of handwritten digits. Finally, we discuss the applications of our algorithm in recommendation systems and polar decomposition. Our work explores new avenues for quantum information processing beyond the conventional protocols that only works for Hermitian data, and reveals the capability of matrix decomposition on near-term quantum devices.},
+  author={Wang, Xin and Song, Zhixin and Wang, Youle},
+  journal={Quantum},
+  html={https://quantum-journal.org/papers/q-2021-06-29-483/},
+  pdf={VQSVD.pdf},
+  selected={true},
+  preview={VQSVD.png},
+  volume={5},
+  pages={483},
   year={2021},
-  publisher={Nature Publishing Group UK London},
-  html={https://www.nature.com/articles/s41534-021-00496-x},
-  pdf={LOCC.pdf},
-  preview={LOCC.png}
+  publisher={Verein zur F{\"o}rderung des Open Access Publizierens in den Quantenwissenschaften}
 }
+
+
 
 @article{wang2022detecting,
   bibtex_show={true},
@@ -79,15 +80,15 @@
   abstract={Quantum entanglement is a key resource in quantum technology, and its quantification is a vital task in the current noisy intermediate-scale quantum (NISQ) era. This paper combines hybrid quantum-classical computation and quasi-probability decomposition to propose two variational quantum algorithms, called variational entanglement detection (VED) and variational logarithmic negativity estimation (VLNE), for detecting and quantifying entanglement on near-term quantum devices, respectively. VED makes use of the positive map criterion and works as follows. Firstly, it decomposes a positive map into a combination of quantum operations implementable on near-term quantum devices. It then variationally estimates the minimal eigenvalue of the final state, obtained by executing these implementable operations on the target state and averaging the output states. Deterministic and probabilistic methods are proposed to compute the average. At last, it asserts that the target state is entangled if the optimized minimal eigenvalue is negative. VLNE builds upon a linear decomposition of the transpose map into Pauli terms and the recently proposed trace distance estimation algorithm. It variationally estimates the well-known logarithmic negativity entanglement measure and could be applied to quantify entanglement on near-term quantum devices. Experimental and numerical results on the Bell state, isotropic states, and Breuer states show the validity of the proposed entanglement detection and quantification methods.},
   author={Wang, Kun and Song, Zhixin and Zhao, Xuanqiang and Wang, Zihe and Wang, Xin},
   journal={npj Quantum Information},
+  html={https://www.nature.com/articles/s41534-022-00556-w},
+  pdf={VED.pdf},
+  selected={true},
+  preview={VED.png},
   volume={8},
   number={1},
   pages={52},
   year={2022},
-  publisher={Nature Publishing Group UK London},
-  html={https://www.nature.com/articles/s41534-022-00556-w},
-  pdf={VED.pdf},
-  selected={true},
-  preview={VED.png}
+  publisher={Nature Publishing Group UK London}
 }
 
 
@@ -97,10 +98,10 @@
   abstract={Current quantum programs are mostly synthesized and compiled on the gate-level, where quantum circuits are composed of quantum gates. The gate-level workflow, however, introduces significant redundancy when quantum gates are eventually transformed into control signals and applied on quantum devices. For superconducting quantum computers, the control signals are microwave pulses. Therefore, pulse-level optimization has gained more attention from researchers due to their advantages in terms of circuit duration. Recent works, however, are limited by their poor scalability brought by the large parameter space of control signals. In addition, the lack of gate-level "knowledge" also affects the performance of pure pulse-level frameworks. We present a hybrid gate-pulse model that can mitigate these problems. We propose to use gate-level compilation and optimization for "fixed" part of the quantum circuits and to use pulse-level methods for problem-agnostic parts. Experimental results demonstrate the efficiency of the proposed framework in discrete optimization tasks. We achieve a performance boost at most 8% with 60% shorter pulse duration in the problem-agnostic layer.},
   author={Liang, Zhiding and Song, Zhixin and Cheng, Jinglei and He, Zichang and Liu, Ji and Wang, Hanrui and Qin, Ruiyang and Wang, Yiru and Han, Song and Qian, Xuehai and others},
   booktitle={2023 60th ACM/IEEE Design Automation Conference (DAC)},
-  pages={1--6},
-  year={2023},
-  organization={IEEE},
   html={https://ieeexplore.ieee.org/abstract/document/10247923},
   pdf={https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10247923},
-  preview={HybridPulse.png}
+  preview={HybridPulse.png},
+  pages={1--6},
+  year={2023},
+  organization={IEEE}
 }
