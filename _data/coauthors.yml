@@ -1,13 +1,19 @@
-"Wang":
-  - firstname: ["Xin"]
-    url: https://www.xinwang.info/
-
 "Zhao":
   - firstname: ["Xuanqiang"]
     url: https://qici.weebly.com/xuanqiang-zhao.html
 
+"Wang":
+  - firstname: ["Xin"]
+    url: https://www.xinwang.info/
 
 "Liang":
   - firstname: ["Zhiding"]
     url: https://zlianghahaha.github.io/
 
+"Cheng":
+  - firstname: ["Jinglei"]
+    url: https://jinleic.github.io/
+
+"He":
+  - firstname: ["Zichang"]
+    url: https://zichanghe.github.io/

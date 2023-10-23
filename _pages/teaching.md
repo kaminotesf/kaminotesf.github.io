@@ -2,11 +2,17 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: Course preparation I contributed to.
 nav: false
 nav_order: 5
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+### Georgia Tech
 
-Organize your courses by years, topics, or universities, however you like!
+- PHYS 2212 Electro & Magnetostatics, Teaching Assistant (TA), Summer 2022
+- PHYS 2212 Electro & Magnetostatics, Teaching Assistant (TA), Spring 2022
+- PHYS 2212 Electro & Magnetostatics, Teaching Assistant (TA), Fall 2021
+
+### Ohio State University
+
+- MATH 2415 Differential Equations, Teaching Assistant (TA), Spring 2017 
